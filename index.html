@@ -9,10 +9,12 @@
 	 
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	
 	<title>Keiver Tecnologic World</title>
 	<style>
@@ -25,7 +27,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 	<header>
-	  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-sm bg-info navbar-light">
 		<!-- Brand/logo -->
 		<a class="navbar-brand" href="index.html">Keiver Tecnologic World</a>
 		
@@ -35,22 +37,22 @@
 			<a class="nav-link" href="index.html">Inicio</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="productos.html">Productos</a>
+			<a class="nav-link" href="servicios.html">Servicios</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Politicas.html">Politicas</a>
+			<a class="nav-link" href="soporte.html">Soporte</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Ubicacion.html">Ubicacion</a>
+			<a class="nav-link" href="ubicacion.html">Ubicacion</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Contactanos.html">Contactanos</a>
+			<a class="nav-link" href="contacto.html">Contacto</a>
 		  </li>
 		</ul>
 	  </nav>
 	<div class="container">
 		<div class="jumbotron">
-			<p class="membrete">Nuestro Horario: Lunes a Viernes 08:00 a 20:00</p>
+			<p class="membrete">Nuestro Horario: Lunes a Viernes 08:00 a 00:00</p>
 		  <h1>Keiver Tecnologic World</h1>      
 		  <p>Expertos en informatica y tecnología, los especialistas en hardware y software.</p>
 		</div>   
@@ -90,80 +92,43 @@
 	</section>
 
 	<section>
-		<div class="container table-responsive">
-			<h3 class="wow animate__bounceIn">Productos Destacados</h3>
-			<table class="table table-hover">
-			  
-			  <thead>
-				<tr>  <!--//filas -->
-					<th>Foto del producto</th>
-					<th>Modelo del Producto</th>
-					<th>Caracteristicas</th>
-				</tr>
-			  </thead>
-			  
-			  <tbody>
-				<tr  class="table-primary">
-					<td>
-						<div >
-						<img src="img/i7-7700kk.jpg" alt="Microprocesador1" class="borredondos">
-						</div>
-					</td>
-
-					<td>Intel Core i7 7700K</td>
-		
-					<td>
-						<ol>
-							<li>Mas rapido.</li>
-							<li>Mas confiable.</li>
-							<li>mas economico.</li>
-						</ol>
-					</td>
-				</tr>
-				<tr class = "table-danger">
-					<td>
-						<img src="img/i7.jpg" alt="Microporcesador2" class="borredondos">
-					</td>
-
-					<td>Intel Core i7 10700F</td>
-					
-					<td>
-						<ol>
-							<li>OctaCore</li>
-							<li>Frecuencia de hasta 4.7 GHz</li>
-							<li>Agil en multitarearas</li>+
-							<li>Buen rendimiento</li>
-							<li>imcomparable</li>
-							<li>facil instalacion</li>
-						</ol>
-					</td>
-				</tr>
-				<tr class = "table-success">
-					<td>
-						<img src="img/i7.jpg" alt="Microporcesador2" class="borredondos">
-					</td>
-
-					<td>Intel Core i7 10700F</td>
-					
-					<td>
-						<ol>
-							<li>OctaCore</li>
-							<li>Frecuencia de hasta 4.7 GHz</li>
-							<li>Agil en multitarearas</li>+
-							<li>Buen rendimiento</li>
-							<li>imcomparable</li>
-							<li>facil instalacion</li>
-						</ol>
-					</td>
-				</tr>
-			  </tbody>
-			  
-			</table>
-			
-		</div>
-		<br>
-
+		<div class="container">
+			<br>
+			<!-- Nav pills -->
+			<ul class="nav nav-pills" role="tablist">
+			  <li class="nav-item">
+				<a class="nav-link active" data-toggle="pill" href="#home">Consultoria</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu1">Administracion</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu2">Seguridad</a>
+			  </li>
+			</ul>
+		  
+			<!-- Tab panes -->
+			<div class="tab-content">
+			  <div id="home" class="container tab-pane active"><br>
+				<h3>Consultoria</h3>
+				<p>Identificar las necesidades tecnológicas y profesionalizar la plataforma informática facilita el crecimiento de tu negocio, para eso planificamos y desarrollamos proyectos acordes a tus necesidades.
+				</p>
+			  </div>
+			  <div id="menu1" class="container tab-pane fade"><br>
+				<h3>Administracion</h3>
+				<p>Asegurar el correcto funcionamiento del sistema informático le garantiza una mejor productividad y eficacia. Para lograrlo, te ofrecemos diferentes opciones de soporte adaptados a las necesidades de tu empresa.
+				</p>
+			  </div>
+			  <div id="menu2" class="container tab-pane fade"><br>
+				<h3>Seguridad</h3>
+				<p>Mejorar la seguridad y evitar ataques contra los equipos es vital para proteger la información de tu empresa y clientes. Contamos con diferentes soluciones de seguridad a nivel de software y hardware. Recomendamos software legal.</p>
+			  </div>
+			</div>
+		  </div>
 	</section>
+<br><br>
+
+
 
 	<section>
 			<h3 class="wow animate__bounceIn">Compra fácil, rápido y cómodo</h3>
@@ -209,11 +174,6 @@
 			<br>
 	</section>	
 
-	<div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
-		<h1>Section 4</h1>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In libero minima excepturi blanditiis fugit atque quae aliquid perspiciatis, ducimus quisquam autem nisi nihil! Error quam, porro deleniti corrupti vero ipsa.</p>
-	  </div>
-	
 	  <footer>
 		<div class="mejoras">
 			<p><a href="https://www.instagram.com/keiverf42/">Visitame en instagram</a>
