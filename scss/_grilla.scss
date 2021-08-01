@@ -17,11 +17,12 @@
     display: grid;
     grid-template-areas:  
     "Datos Datos2";
-    grid-template-rows: 0.5fr 0.5fr;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 20px;
-	height: auto;
+    grid-template-rows: 2fr 2fr;
+    grid-template-columns: 2fr 2fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+	height: 700PX;
+    grid-column: auto;
 }
 
 #grilla2{

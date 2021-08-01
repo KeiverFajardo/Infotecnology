@@ -16,8 +16,8 @@ a {
 }
 
 .mejoras{
-	margin: 20px;
-    padding: 10px;
+	margin: 300px;
+    padding: 30px;
 
     .mejoras2{
         width: auto;
@@ -49,9 +49,11 @@ fieldset form legend {
 .contacta{
     @include central;
 	display: flex;
-	margin: 0.5em;
+	margin: 1em;
 	flex-direction: column;
 	width: 890px;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 
