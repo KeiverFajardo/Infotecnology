@@ -74,25 +74,75 @@
 
 	</header>
 	
+	
 	<section id="grillaContactanos">
-		<div class="centrar">
-			<h3 class="sub" id="Italica">Ubicacion.</h3>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis harum soluta, et accusamus voluptatem ipsa, animi nesciunt ratione enim quae reiciendis vero explicabo illo, quaerat consequatur ut rerum minima in!
-			</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6543.8909905605105!2d-56.18266130000003!3d-34.90781729999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81b6701764ed%3A0x4dc911bae3a5b461!2sC%C3%ADrculo%20Cat%C3%B3lico%20-%20Sanatorio%20Central%20Dr.%20Luis%20Pedro%20Lenguas!5e0!3m2!1ses!2suy!4v1622840389525!5m2!1ses!2suy" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="agrandar"></iframe>
+		<div class="centrar mejoras">
+			<h3>Contacto.</h3>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui, quas cupiditate officia, dolorum error voluptate adipisci reiciendis, molestiae quod atque quidem voluptates. Eum sequi eaque praesentium exercitationem quia fuga magni.</p>			
+				
+					<li><a href="https://web.whatsapp.com/">095 959 553</a></li>
+					<li><a href="https://web.whatsapp.com/">095 959 553</a></li>
+					<li><a href="https://web.whatsapp.com/">095 959 553</a></li>
+	
+			</div>
+		
+		<div class="mejoras centrar">
+			<div class="mejoras2">
+
+			<form action="enviar.php" method="POST" enctype="multipart/form-data">
+			<fieldset>
+				
+				<legend>Envia tu recomendacion</legend>
+				<div class="centrar">
+				<label for="nombreyapellido" class="contacta">Nombre y Apellido</label>
+				<input type="text" name="nombreyapellido" maxlength="100" class="contacta membrete__zoom"> 
+				
+
+				<label for="email" class="contacta">Email</label>
+				<input type="email" name="email" maxlength="50" class="contacta membrete__zoom">
+				
+
+				<textarea class="contacta">Escribe aqui tus surgerencias</textarea>
+				</div>
+
+				<label for="estadocivil" class="contacta">Estado Civil:</label>
+				<div class="centrar">
+				<select name="estadocivil" class="centrar"> 
+					<option value="S">Solter@</option>
+					<option value="C">Casad@</option>
+					<option value="D">Divorciad@</option>
+					<option value="V">Viud@</option>
+					<option value="O">Otro</option>
+				</select>
+				</div>
+
+				<div class="centrar">
+				<label for="Sexo" class="contacta">Sexo:</label>
+				<label>Hombre</label>
+				<input type="radio" name="sexo"	value="Masculino">
+
+				<label>Femenino</label>
+				<input type="radio" name="sexo"	value="Femenino">
+
+				<label>Otro</label>
+				<input type="radio" name="sexo"	value="OTRO">
+				</div>
+
+				<label class="contacta">Soy comprador independiente</label>
+				<input type="checkbox" name="compradorindependiente" value="1" class="contacta">
+				
+
+				<input type="submit" name="submit" value="Enviar" class="contacta centrar">
+				<input type="reset" name="reset" value="Limpiar" class="contacta">
+			</fieldset>
+			</form>
+			</div>
 		</div>
 
-		<div class="centrar">
-			<h3 class="sub" id="Italica">Ubicacion.</h3>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis harum soluta, et accusamus voluptatem ipsa, animi nesciunt ratione enim quae reiciendis vero explicabo illo, quaerat consequatur ut rerum minima in!
-			</p>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6543.8909905605105!2d-56.18266130000003!3d-34.90781729999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81b6701764ed%3A0x4dc911bae3a5b461!2sC%C3%ADrculo%20Cat%C3%B3lico%20-%20Sanatorio%20Central%20Dr.%20Luis%20Pedro%20Lenguas!5e0!3m2!1ses!2suy!4v1622840389525!5m2!1ses!2suy" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="agrandar"></iframe>
-		</div>
-
+		
 	</section>
 
+	
 
 	<footer>
 		<div class="mejoras">
@@ -106,4 +156,4 @@
 		</div>
 	</footer>
 </body>
-</html>		
+</html>

@@ -6,15 +6,29 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Tag de Viewport -->
 	 <!-- CDN de Bootstrap del CSS -->
-	 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	
-	<title>Keiver Tecnologic World</title>
+
+	 <!--Meta etiquetas / SEO -->
+    <!--Tiene que tener entre 70 a 320 caracteres  es la descrpcion chica cuando lo buscas en el navegador-->
+    <meta name="description" content="Soporte informático para empresas, soluciones rapidas y confiables. Seguridad informática. Reparación computadoras, notebook y dispositivos de redes.">
+
+    <!--Keywords - tiene que estar separadas por comas / 15 o mas -->
+    <meta name="keywords" content="computación, informática, redes inalámbricas, reparación pc, soporte técnico, soluciones empresariales, servidores, notebook, pc, seguridad infomatica, respaldo, atención personalizada, tecnología, reparaciones notebook, redes informáticas, servicios empresariales, servicio técnico especializado">
+
+    <!--Favicon hay que convertir cualquier imagen en .ico el logo de la marca o de la empresa -->
+    <link rel="shortcut icon" href="i8.ico" type="image/x-icon">
+
+
+    <!-- XLM pàra optimizar nivel dios la pagina-->
+
+    <!-- Tiene que estar entre los 35 a 65 caracteres // importante porque es lo que se ve el contenido de tu sitio cuando lo buscas-->
+    <title>Infotecnology Montevideo - Expertos en informatica y tecnología.</title>
 	<style>
 		body {
 			position: relative; 
@@ -23,11 +37,13 @@
 </head>
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
+	<!--Uso de las etiquetas semanticas-->
+
 	<header>
-	  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<nav class="navbar navbar-expand-sm bg-info navbar-light">
 		<!-- Brand/logo -->
-		<a class="navbar-brand" href="index.html">Keiver Tecnologic World</a>
+		<a class="navbar-brand" href="index.html">Infotecnology Montevideo</a>
 		
 		<!-- Links -->
 		<ul class="navbar-nav">
@@ -35,33 +51,30 @@
 			<a class="nav-link" href="index.html">Inicio</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="productos.html">Productos</a>
+			<a class="nav-link" href="servicios.html">Servicios</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Politicas.html">Politicas</a>
+			<a class="nav-link" href="soporte.html">Soporte</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Ubicacion.html">Ubicacion</a>
+			<a class="nav-link" href="ubicacion.html">Ubicacion</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="Contactanos.html">Contactanos</a>
+			<a class="nav-link" href="contacto.html">Contacto</a>
 		  </li>
 		</ul>
 	  </nav>
-	<div class="container">
-		<div class="jumbotron">
-			<p class="membrete">Nuestro Horario: Lunes a Viernes 08:00 a 20:00</p>
-		  <h1>Keiver Tecnologic World</h1>      
+	<div class="container jumbotron">
+			<p class="membrete">Nuestro Horario: Lunes a Viernes 08:00 a 00:00</p>
+		  <h1>Infotecnology Montevideo</h1>      
 		  <p>Expertos en informatica y tecnología, los especialistas en hardware y software.</p>
-		</div>   
 	</div>
 
 	</header>
 	
 	<section>
-		
-		<div>
-			<div class="container-fluid"><h1 class="aparecer wow animate__flipInX">EXPLORA LA NUEVA ERA DE LA TECNOLOGIA</h1></div>
+
+			<div class="container-fluid"><h2 class="aparecer wow animate__flipInX centrar">Soporte tecnico especializado en Montevideo, Uruguay.</h2></div>
 			
 			<!--Carrusel-->
 			<div id="carouselExampleControls" class="carousel slide col-md-7 container" data-ride="carousel">
@@ -85,84 +98,42 @@
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
-		</div>
-		<br>
 	</section>
 
 	<section>
-		<div class="container table-responsive">
-			<h3 class="wow animate__bounceIn">Productos Destacados</h3>
-			<table class="table table-hover">
-			  
-			  <thead>
-				<tr>  <!--//filas -->
-					<th>Foto del producto</th>
-					<th>Modelo del Producto</th>
-					<th>Caracteristicas</th>
-				</tr>
-			  </thead>
-			  
-			  <tbody>
-				<tr  class="table-primary">
-					<td>
-						<div >
-						<img src="img/i7-7700kk.jpg" alt="Microprocesador1" class="borredondos">
-						</div>
-					</td>
+		<div class="container">
 
-					<td>Intel Core i7 7700K</td>
-		
-					<td>
-						<ol>
-							<li>Mas rapido.</li>
-							<li>Mas confiable.</li>
-							<li>mas economico.</li>
-						</ol>
-					</td>
-				</tr>
-				<tr class = "table-danger">
-					<td>
-						<img src="img/i7.jpg" alt="Microporcesador2" class="borredondos">
-					</td>
-
-					<td>Intel Core i7 10700F</td>
-					
-					<td>
-						<ol>
-							<li>OctaCore</li>
-							<li>Frecuencia de hasta 4.7 GHz</li>
-							<li>Agil en multitarearas</li>+
-							<li>Buen rendimiento</li>
-							<li>imcomparable</li>
-							<li>facil instalacion</li>
-						</ol>
-					</td>
-				</tr>
-				<tr class = "table-success">
-					<td>
-						<img src="img/i7.jpg" alt="Microporcesador2" class="borredondos">
-					</td>
-
-					<td>Intel Core i7 10700F</td>
-					
-					<td>
-						<ol>
-							<li>OctaCore</li>
-							<li>Frecuencia de hasta 4.7 GHz</li>
-							<li>Agil en multitarearas</li>+
-							<li>Buen rendimiento</li>
-							<li>imcomparable</li>
-							<li>facil instalacion</li>
-						</ol>
-					</td>
-				</tr>
-			  </tbody>
-			  
-			</table>
-			
-		</div>
-		<br>
-
+			<!-- Nav pills -->
+			<ul class="nav nav-pills" role="tablist">
+			  <li class="nav-item">
+				<a class="nav-link active" data-toggle="pill" href="#home">Consultoria</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu1">Administracion</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" data-toggle="pill" href="#menu2">Seguridad</a>
+			  </li>
+			</ul>
+		  
+			<!-- Tab panes -->
+			<div class="tab-content">
+			  <div id="home" class="container tab-pane active"><br>
+				<h3>Consultoria</h3>
+				<p>Identificar las necesidades tecnológicas y profesionalizar la plataforma informática facilita el crecimiento de tu negocio, para eso planificamos y desarrollamos proyectos acordes a tus necesidades.
+				</p>
+			  </div>
+			  <div id="menu1" class="container tab-pane fade"><br>
+				<h3>Administracion</h3>
+				<p>Asegurar el correcto funcionamiento del sistema informático le garantiza una mejor productividad y eficacia. Para lograrlo, te ofrecemos diferentes opciones de soporte adaptados a las necesidades de tu empresa.
+				</p>
+			  </div>
+			  <div id="menu2" class="container tab-pane fade"><br>
+				<h3>Seguridad</h3>
+				<p>Mejorar la seguridad y evitar ataques contra los equipos es vital para proteger la información de tu empresa y clientes. Contamos con diferentes soluciones de seguridad a nivel de software y hardware. Recomendamos software legal.</p>
+			  </div>
+			</div>
+		  </div>
 	</section>
 
 	<section>
@@ -172,48 +143,42 @@
 				<div class="card">
 				  <div class="card-header">
 					<a class="card-link" data-toggle="collapse" href="#collapseOne">
-						Formas de Pago.
+						<p>Formas de Pago.</p>
 					</a>
 				  </div>
 				  <div id="collapseOne" class="collapse show" data-parent="#accordion">
 					<div class="card-body">
-						Contamos con diferentes opciones para que realices el pago de forma comoda, rapida y segura.
+						<p>Contamos con diferentes opciones para que realices el pago de forma comoda, rapida y segura.</p>
 					</div>
 				  </div>
 				</div>
 				<div class="card">
 				  <div class="card-header">
 					<a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
-						Envio Gratis
+						<p>Envio Gratis.</p>
 				  </a>
 				  </div>
 				  <div id="collapseTwo" class="collapse" data-parent="#accordion">
 					<div class="card-body">
-						Disfruta de envios gratis en tus compras que superen los 50 dolares americanos.
+						<p>Disfruta de envios gratis en tus compras que superen los 50 dolares americanos.</p>
 					</div>
 				  </div>
 				</div>
 				<div class="card">
 				  <div class="card-header">
 					<a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
-						Compra Protegida
+						<p>Compra Protegida.</p>
 					</a>
 				  </div>
 				  <div id="collapseThree" class="collapse" data-parent="#accordion">
 					<div class="card-body">
-						Contamos las herramientas para cuidarte en cada momento de tu compra.
+						<p>Contamos las herramientas para cuidarte en cada momento de tu compra.</p>
 					</div>
 				  </div>
 				</div>
 			</div>
-			<br>
 	</section>	
 
-	<div id="section42" class="container-fluid bg-info" style="padding-top:70px;padding-bottom:70px">
-		<h1>Section 4</h1>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In libero minima excepturi blanditiis fugit atque quae aliquid perspiciatis, ducimus quisquam autem nisi nihil! Error quam, porro deleniti corrupti vero ipsa.</p>
-	  </div>
-	
 	  <footer>
 		<div class="mejoras">
 			<p><a href="https://www.instagram.com/keiverf42/">Visitame en instagram</a>
@@ -222,9 +187,13 @@
 			</p>
 		</div>
 		<div>
-			<h3 class="membrete">Todos los derechos Reservados Keiver Tecnologic World</h3>
+			<h3 class="membrete">Todos los derechos Reservados Infotecnology Montevideo</h3>
 		</div>
-	</footer>  
+	</footer> 
+	
+	<a href="https://api.whatsapp.com/send?phone=5491156129008" class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>
 
 	<!--Aqui añadimos los scrips -->
 	<script src="js/wow.min.js"></script>
